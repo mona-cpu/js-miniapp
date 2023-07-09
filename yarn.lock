@@ -1445,6 +1445,12 @@
   version "5.11.15"
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.11.15.tgz#a85cc60d8c1104bf1963229dea17744f674eb1f3"
 
+"@mui/icons-material@^5.11.16":
+  version "5.11.16"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.11.16.tgz#417fa773c56672e39d6ccfed9ac55591985f0d38"
+  dependencies:
+    "@babel/runtime" "^7.21.0"
+
 "@mui/material@^5.10.17":
   version "5.11.15"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.11.15.tgz#101afbc5399aee3cd551eb066bf375df448fa263"
@@ -11305,15 +11311,9 @@ semver@7.3.2:
   version "7.3.2"
   resolved "https://registry.npmjs.org/semver/-/semver-7.3.2.tgz"
 
-semver@^7.3.2:
-  version "7.3.4"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.3.4.tgz"
-  dependencies:
-    lru-cache "^6.0.0"
-
-semver@^7.3.8:
-  version "7.3.8"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
+semver@^7.3.2, semver@^7.5.2:
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.2.tgz#5b851e66d1be07c1cdaf37dfc856f543325a2beb"
   dependencies:
     lru-cache "^6.0.0"
 
